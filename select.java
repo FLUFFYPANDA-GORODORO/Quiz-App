@@ -21,7 +21,7 @@ public class select extends JFrame implements ActionListener{
         getContentPane().setBackground(Color.white);
         setLayout(null);   
 
-        heading = new JLabel("Welcome "+name+" To GoroDoro Coding Classes");
+        heading = new JLabel("Welcome "+name+" To Our Quiz App");
         heading.setBounds(450,100,800,50);
         heading.setFont(new Font("Dailog",Font.PLAIN,30));
         add(heading);
